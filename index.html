@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portofolio - Mochamad Darmawan Hardjakusumah</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="keywords"
+        content="Mochamad Darmawan Hardjakusumah, portofolio, profil, programmer, app developer, web developer, mobile developer, desktop developer">
+    <meta name="description"
+        content="Portofolio Mochamad Darmawan Hardjakusumah yang menampilkan keterampilan dan pengalaman dalam pengembangan aplikasi, seperti proyek-proyek di bidang pengembangan web, mobile, dan desktop.">
+
+    <!-- Favicon -->
+    <link href="img/mine/me.jpg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .logo-customize {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+        <a href="#home" class="navbar-brand ml-lg-3 smooth-scrolling">
+            <h1 class="m-0 display-5"><span class="text-secondary">Moch</span>Folio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">Tentang</a>
+                <a href="#qualification" class="nav-item nav-link">Kualitas</a>
+                <a href="#skill" class="nav-item nav-link">Keahlian</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#activity" class="nav-item nav-link">Aktifitas</a>
+                <a href="#blog" class="nav-item nav-link">Blog</a>
+                <a href="#contact" class="nav-item nav-link">Kontak</a>
+            </div>
+            <a href="#contact" class="btn btn-outline-light d-none d-lg-block smooth-scrolling">Kerjasama</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-dark d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/mine/me.jpg" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">Aku</h3>
+                    <h1 class="display-3 text-uppercase text-dark mb-2" style="-webkit-text-stroke: 2px #ffffff;">
+                        Mochamad Darmawan Hardjakusumah</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Programmer, Software Engineer</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="doc/mochamad-darmawan-hardjakusumah-updated-cv-merged-compressed.pdf" class="btn btn-outline-light mr-5">Unduh CV</a>
+                        <button type="button" class="btn-play" data-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Putar Video</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-dark" style="-webkit-text-stroke: 1px #52575c;">Tentang</h1>
+                <h1 class="position-absolute text-uppercase text-white">Tentang Ku</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/mine/me-candid-crop.jpg" alt=""
+                        style="height: 450px; width: 250px; object-fit: cover;">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Programmer & Software Engineer</h3>
+                    <p>
+                        "Sejak 2021, saya telah aktif membentuk karier saya dengan fokus pada pengembangan perangkat
+                        lunak. Didorong oleh minat yang mendalam dalam teknologi aplikasi <b><i>web dan mobile</i></b>,
+                        saya telah mengembangkan keterampilan di berbagai bahasa pemrograman dan framework, termasuk
+                        <b><i>PHP, Laravel, HTML, CSS, JavaScript, Vue.js, MySQL, Firebase, arsitektur MVC, Flutter, Dart, Python,
+                                VB.NET, C#, Git, RESTful APIs, dan prinsip desain sistem</i></b>. Saya mengutamakan
+                        praktik pengkodean yang bersih, pengujian yang menyeluruh, dan solusi perangkat lunak yang
+                        dirancang dengan baik. Tujuan akhir saya adalah memperoleh keahlian yang mendalam dalam
+                        pengembangan perangkat lunak, keamanan siber, dan kecerdasan buatan, dengan harapan menjadi
+                        seorang insinyur perangkat lunak yang serba bisa dan mahir. Saya terampil dalam berkolaborasi
+                        dengan tim lintas fungsi untuk mendorong kesuksesan proyek melalui solusi inovatif dan memiliki
+                        kemampuan terbukti untuk cepat mempelajari dan menyesuaikan diri dengan teknologi web dan
+                        perangkat lunak terbaru."
+                    </p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2">
+                            <h5>
+                                Nama:
+                            </h5>
+                            <h6>
+                                Mochamad Darmawan Hardjakusumah
+                            </h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h5>
+                                Lahir:
+                            </h5>
+                            <h6>
+                                Oktober 2000
+                            </h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h5>Pendidikan:</h5>
+                            <h6>
+                                Sarjana S1
+                            </h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h5>
+                                Pengalaman:
+                            </h5>
+                            <h6>
+                                2 Years
+                            </h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h5>
+                                Telepon:
+                            </h5>
+                            <h6>
+                                +62 8129 7514 361 (hanya Whatsapp)
+                            </h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h5>
+                                Email:
+                            </h5>
+                            <h6>
+                                mochamaddarmawanh@gmail.com
+                            </h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h5>
+                                Lokasi:
+                            </h5>
+                            <h6>
+                                Karawang
+                            </h6>
+                        </div>
+                        <div class="col-sm-6 py-2">
+                            <h5>
+                                Freelance:
+                            </h5>
+                            <h6>
+                                Available
+                            </h6>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-outline-light mr-4 smooth-scrolling">Kerjasama</a>
+                    <a href="#" class="btn btn-outline-light disabled">Lihat Lebih</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-dark" style="-webkit-text-stroke: 1px #52575c;">Kualitas</h1>
+                <h1 class="position-absolute text-uppercase text-white">Pendidikan & Pengalaman</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Pendidikan Ku</h3>
+                    <div class="border-left border-white pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-whiborder-white position-absolute"
+                                style="top: 2px; left: -32px"></i>
+                            <h5 class="font-weight-bold mb-1">Sarjana S1 Informatika</h5>
+                            <p class="mb-2">
+                                <strong>Universitas Widyatama</strong> |
+                                <small>2018 - 2023</small>
+                            </p>
+                            <p>
+                                Saya bangga untuk mendapatkan gelar Sarjana S1 Informatika dari Universitas Widyatama
+                                pada tahun 2023. Sepanjang perjalanan akademis, saya fokus pada Teknologi Informasi dan
+                                Ilmu Komputer, dengan spesialisasi di bidang Kecerdasan Buatan (AI). Pengalaman ini
+                                telah mengasah keterampilan saya dalam pemrograman, sehingga saya mampu mengembangkan
+                                aplikasi baik berbasis web, mobile, desktop, atau dan bahkan mulai mengeksplorasi
+                                pengembangan game, meskipun dalam game saya masih terus belajar untuk lebih menguasai
+                                bidang game tersebut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Kursus Ku</h3>
+                    <div class="border-left border-white pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-whiborder-white position-absolute"
+                                style="top: 2px; left: -32px"></i>
+                            <h5 class="font-weight-bold mb-1">IELTS 60 Hours</h5>
+                            <p class="mb-2">
+                                <strong>Schoters</strong> | <small>September 2021 - December 2021</small>
+                            </p>
+                            <p>
+                                Secara online
+                            </p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-whiborder-white position-absolute"
+                                style="top: 2px; left: -32px"></i>
+                            <h5 class="font-weight-bold mb-1">Unity Fundamental Game Development</h5>
+                            <p class="mb-2">
+                                <strong>OneTwoCode Indonesia</strong> | <small>February 2022 - March 2022</small>
+                            </p>
+                            <p>
+                                Secara online <a href="doc/Mochamad Darmawan Hardjakusumah.pdf" target="_blank"
+                                    class="border-bottom border-info text-info text-decoration-none">Lihat sertifikat</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Pengalaman Ku</h3>
+                    <div class="border-left border-white pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-whiborder-white position-absolute"
+                                style="top: 2px; left: -32px"></i>
+                            <h5 class="font-weight-bold mb-1">Freelance</h5>
+                            <p class="mb-2">
+                                <small>2020 - 2022</small>
+                            </p>
+                            <p>
+                                Cari-cari project untuk tambah pengalaman, mengasah skills dan menambah sedikit uang
+                                jajan. Seperti membuat web dan mengajar pemograman (basic pemograman, web & game
+                                development dengan Unity/Scratch).
+                            </p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-white position-absolute" style="top: 2px; left: -32px"></i>
+                            <h5 class="font-weight-bold mb-1">Web Developer (Magang)</h5>
+                            <p class="mb-2">
+                                <strong>Universitas Widyatama</strong> | <small>Agustus 2021 - Januari 2023</small>
+                            </p>
+                            <p>
+                                Membuat dan mengembangkan aplikasi TOEFL & TOEIC untuk kebutuhan ketika pandemi Covid-19
+                                berbasis web.
+                            </p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-white position-absolute" style="top: 2px; left: -32px"></i>
+                            <h5 class="font-weight-bold mb-1">Web Developer (Magang)</h5>
+                            <p class="mb-2">
+                                <strong>Peruri</strong> | <small>Januari 2024 - Juni 2024</small>
+                            </p>
+                            <p>
+                                Ditempatkan di unit Sumber Daya Manusia Strategis (Strategic Human Resources Department)
+                                untuk mendukung segala aktivitas seperti membantu meninjau CV untuk rekrutmen Govtech
+                                Indonesia, dan juga menjadi moderator interview ketika tim rekruitmen berhalangan untuk
+                                hadir dengan mengingat latar belakang studi saya di Informatika. Selain itu, saya juga
+                                diberi tugas utama yaitu untuk mengembangkan sistem-sitem pada unit tersebut agar dapat
+                                diakses secara online dan user user-friendly dan selama saya magang di Peruri saya hanya
+                                diberi tugas untuk mengembangkan aplikasi asesmen untuk evaluasi kenaikan jabatan, saya
+                                menggunakan basis web dengan teknologi Laravel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-dark" style="-webkit-text-stroke: 1px #52575c;">Keahlian</h1>
+                <h1 class="position-absolute text-uppercase text-white">Keahlian Ku</h1>
+            </div>
+            <div class="mb-4">
+                <h5 class="font-weight-bold mb-3">Bahasa pemograman:</h5>
+                <div class="table-responsive">
+                    <table class="table table-bordered" style="width: auto;">
+                        <thead>
+                            <tr>
+                                <td>PHP</td>
+                                <td>Javascript</td>
+                                <td>Dart</td>
+                                <td>C#</td>
+                                <td>Visual Basic</td>
+                                <td>Python</td>
+                                <td>Java</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="img/mine/php-original.svg" alt="php logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/javascript-animated.svg" alt="javascript logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/dart-original.svg" alt="dart logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/csharp-original.svg" alt="csharp logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/visualbasic-original.svg" alt="vb logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/python-animated.svg" alt="python logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/java-animated.svg" alt="java logo"
+                                        class="img-fluid logo-customize"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h5 class="font-weight-bold mb-3">Best kerangka kerja & perpustakaan:</h5>
+                <div class="table-responsive">
+                    <table class="table table-bordered" style="width: auto;">
+                        <thead>
+                            <tr>
+                                <td>Laravel</td>
+                                <td>Bootstrap</td>
+                                <td>JQuery</td>
+                                <td>Flutter</td>
+                                <td>Flask</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="img/mine/laravel-original.svg" alt="laravel logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/boostrap-original.svg" alt="boostrap logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/jquery-original.svg" alt="jquery logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/flutter-original.svg" alt="flutter logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/flask-original.svg" alt="flask logo"
+                                        class="img-fluid logo-customize"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h5 class="font-weight-bold mb-3">Basis data:</h5>
+                <div class="table-responsive">
+                    <table class="table table-bordered" style="width: auto;">
+                        <thead>
+                            <tr>
+                                <td>MySQL</td>
+                                <td>Firebase</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="img/mine/mysql-animated.svg" alt="laravel logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/firebase-original.svg" alt="boostrap logo"
+                                        class="img-fluid logo-customize"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h5 class="font-weight-bold mb-3">Alat:</h5>
+                <div class="table-responsive">
+                    <table class="table table-bordered" style="width: auto;">
+                        <thead>
+                            <tr>
+                                <td>Visual Studio <div>Code</div></td>
+                                <td>Visual Studio <div>2022</div></td>
+                                <td>Unity</td>
+                                <td>Blender</td>
+                                <td>Figma</td>
+                                <td>Canva</td>
+                                <td>ChatGPT</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="img/mine/visualstudiocode-original.svg" alt="visualstudiocode logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/visualstudio-original.svg" alt="visualstudio logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/unity-original.svg" alt="unity logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/blender-original.svg" alt="blender logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/figma-original.svg" alt="figma logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/canva-original.svg" alt="canva logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/chtgpt-original.svg" alt="canva logo"
+                                        class="img-fluid logo-customize"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h5 class="font-weight-bold mb-3">Lingkungan, pengujian, lainnya:</h5>
+                <div class="table-responsive">
+                    <table class="table table-bordered" style="width: auto;">
+                        <thead>
+                            <tr>
+                                <td>Git</td>
+                                <td>Github</td>
+                                <td>Gitlab</td>
+                                <td>Postman</td>
+                                <td>Node js</td>
+                                <td>Composer</td>
+                                <td>Trello</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="img/mine/git-original.svg" alt="git logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/github-animated.svg" alt="github logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/gitlab-original.svg" alt="gitlab logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/postman-original.svg" alt="postman logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/nodejs-original.svg" alt="nodejs logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/composer-original.svg" alt="composer logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/trello-original.svg" alt="trello logo"
+                                        class="img-fluid logo-customize"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h5 class="font-weight-bold mb-3">OS:</h5>
+                <div class="table-responsive">
+                    <table class="table table-bordered" style="width: auto;">
+                        <thead>
+                            <tr>
+                                <td>Windows</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="img/mine/windows11-original.svg" alt="git logo"
+                                        class="img-fluid logo-customize"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-dark" style="-webkit-text-stroke: 1px #52575c;">Galeri</h1>
+                <h1 class="position-absolute text-uppercase text-white">Portofolio Ku</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-light m-1 active" data-filter="*">Semua</li>
+                        <li class="btn btn-sm btn-outline-light m-1" data-filter=".web">Web</li>
+                        <li class="btn btn-sm btn-outline-light m-1" data-filter=".mobile">Mobile</li>
+                        <li class="btn btn-sm btn-outline-light m-1" data-filter=".desktop">Desktop</li>
+                        <li class="btn btn-sm btn-outline-light m-1" data-filter=".game">Game</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item web">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/mine/widit/widit_1.jpg" alt="">
+                        <div class="portfolio-btn bg-secondary d-flex align-items-center justify-content-center">
+                            <a href="project/widit.html">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item web">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/mine/recognition/recognition_1.gif" alt="">
+                        <div class="portfolio-btn bg-secondary d-flex align-items-center justify-content-center">
+                            <a href="project/recogniton.html">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item mobile">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/mine/todo-list/f_todolist_1_cover.jpg" alt="">
+                        <div class="portfolio-btn bg-secondary d-flex align-items-center justify-content-center">
+                            <a href="project/todolist.html">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item game">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/mine/endless-run/endless_run_1.png" alt="">
+                        <div class="portfolio-btn bg-secondary d-flex align-items-center justify-content-center">
+                            <a href="project/endlessrun.html">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item desktop">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/mine/vbnet-simple-biodata/vbnet_biodata_1.jpeg"
+                            alt="">
+                        <div class="portfolio-btn bg-secondary d-flex align-items-center justify-content-center">
+                            <a href="project/biodata.html">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item web">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/mine/peruri-asesmen/oeruri_asesmen_1.jpeg" alt="">
+                        <div class="portfolio-btn bg-secondary d-flex align-items-center justify-content-center">
+                            <a href="project/asesmen.html">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item mobile">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/mine/flutter-firebase-crud/firebase_crud_3.jpeg" alt="">
+                        <div class="portfolio-btn bg-secondary d-flex align-items-center justify-content-center">
+                            <a href="project/flutter-crud-and-auth-with-firebase.html">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    <!-- Hobby Start -->
+    <div class="container-fluid py-5" id="activity">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-dark" style="-webkit-text-stroke: 1px #52575c;">Aktifitas</h1>
+                <h1 class="position-absolute text-uppercase text-white">Kegemaran / Aktifitas Ku</h1>
+            </div>
+            <div class="mb-4">
+                <h5 class="font-weight-bold mb-3">I'm addicted to:</h5>
+                <div class="table-responsive">
+                    <table class="table table-bordered" style="width: auto;">
+                        <thead>
+                            <tr>
+                                <td>Swimming</td>
+                                <td>Football</td>
+                                <td>Running</td>
+                                <td>Game</td>
+                                <td>Music</td>
+                                <td>Coding</td>
+                                <td>Travel</td>
+                                <td>Reading</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="img/mine/swimming.gif" alt="git logo" class="img-fluid logo-customize">
+                                </td>
+                                <td><img src="img/mine/soccer-ball.webp" alt="github logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/running.gif" alt="gitlab logo" class="img-fluid logo-customize">
+                                </td>
+                                <td><img src="img/mine/video-game.webp" alt="gitlab logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/musical-notes.png" alt="postman logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/man-technologist-medium-dark-skin-tone.png" alt="nodejs logo"
+                                        class="img-fluid logo-customize"></td>
+                                <td><img src="img/mine/travel.gif" alt="composer logo" class="img-fluid logo-customize">
+                                </td>
+                                <td><img src="img/mine/reading.gif" alt="trello logo" class="img-fluid logo-customize">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-dark" style="-webkit-text-stroke: 1px #52575c;">Blog</h1>
+                <h1 class="position-absolute text-uppercase text-white">Blog Terbaru</h1>
+            </div>
+            <h5 class="text-center font-weight-medium mb-4">Soon</h5>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-dark" style="-webkit-text-stroke: 1px #52575c;">Kontak</h1>
+                <h1 class="position-absolute text-uppercase text-white">Kirim Pesan Kepada Diriku</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Nama kamu"
+                                        required="required" data-validation-required-message="Nama wajib diisi" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Email kamu"
+                                        required="required" data-validation-required-message="Email wajib diisi" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subjek pesan"
+                                    required="required" data-validation-required-message="Subjek pesan wajib diisi" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea href="#" class="form-control py-3 px-4" rows="5" id="message"
+                                    placeholder="Isi pesan" required="required"
+                                    data-validation-required-message="Isi pesan wajib diisi"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-light" type="submit" id="sendMessageButton">Kirim
+                                    Pesan</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a href="https://github.com/mochamaddarmawanh" target="_blank" class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mochamad-darmawan-hardjakusumah/" target="_blank" class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/mochamad.darmawan/" target="_blank" class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a href="javascript:void(0);" class="text-white">Privacy</a>
+                <span class="px-3">|</span>
+                <a href="javascript:void(0);" class="text-white">Terms</a>
+                <span class="px-3">|</span>
+                <a href="javascript:void(0);" class="text-white">FAQs</a>
+                <span class="px-3">|</span>
+                <a href="javascript:void(0);" class="text-white">Help</a>
+            </div>
+            <p class="m-0">
+                &copy; <a href="javascript:void(0);" class="text-white font-weight-bold">Mochamad Darmawan Hardjakusumah</a>. All Rights Reserved.
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-light px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- My Javascript -->
+    <script src="js/myscript.js"></script>
+</body>
+
+</html>
